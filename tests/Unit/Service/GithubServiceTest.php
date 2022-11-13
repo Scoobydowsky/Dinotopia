@@ -24,16 +24,20 @@ class GithubServiceTest extends TestCase
             ->method('toArray')
             ->willReturn([
                 [
-                    'title'=>'Daisy',
-                    'labels'=>[['name'=>'Status: Sick']]
+                    'title' => 'Daisy',
+                    'labels' => [['name' => 'Status: Sick']]
                 ],
                 [
-                    'title'=>'Maverick',
-                    'labels'=>[['name'=>'Status: Healthy']]
+                    'title' => 'Maverick',
+                    'labels' => [['name' => 'Status: Healthy']]
                 ]
             ]);
 
-        $mockHttpClient->method('request')->willReturn($mockResponse);
+        $mockHttpClient
+            ->expects(self::once())
+            ->method('request')
+            ->with('GET', 'https://api.github.com/repos/symfonyCasts/dino-park/issues')
+            ->willReturn($mockResponse);
 
         $service = new GithubService($mockHttpClient, $mockLogger);
 

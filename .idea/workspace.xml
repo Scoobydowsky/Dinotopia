@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33b08981-4291-4ecf-9a1a-3af37b9dbc10" name="Changes" comment="Mocking: Test Doubles (chapter 10)">
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+    <list default="true" id="33b08981-4291-4ecf-9a1a-3af37b9dbc10" name="Changes" comment="Mocking: Stubs (chapter 11)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/Service/GithubServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Service/GithubServiceTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,7 @@
       <workItem from="1668187813310" duration="1709000" />
       <workItem from="1668199715128" duration="1014000" />
       <workItem from="1668277653804" duration="2919000" />
-      <workItem from="1668380381638" duration="1603000" />
+      <workItem from="1668380381638" duration="2105000" />
     </task>
     <task id="LOCAL-00001" summary="int">
       <created>1668110438940</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668281793825</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Mocking: Stubs (chapter 11)">
+      <created>1668382113539</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668382113539</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +262,7 @@
     <MESSAGE value="Create a Github Service Test (chapter 8)" />
     <MESSAGE value="GitHub Service: Implementation (chapter 9)" />
     <MESSAGE value="Mocking: Test Doubles (chapter 10)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mocking: Test Doubles (chapter 10)" />
+    <MESSAGE value="Mocking: Stubs (chapter 11)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mocking: Stubs (chapter 11)" />
   </component>
 </project>
