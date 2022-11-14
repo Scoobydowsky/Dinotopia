@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33b08981-4291-4ecf-9a1a-3af37b9dbc10" name="Changes" comment="Mocking: Mock Objects (chapter 12)">
+    <list default="true" id="33b08981-4291-4ecf-9a1a-3af37b9dbc10" name="Changes" comment="Filtering Out Hungry Dino's(chapter 13)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Dinosaur.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Dinosaur.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enum/HealthStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enum/HealthStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/Entity/DinosaurTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Entity/DinosaurTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/GithubService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/GithubService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Service/GithubServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Service/GithubServiceTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,8 @@
       <workItem from="1668187813310" duration="1709000" />
       <workItem from="1668199715128" duration="1014000" />
       <workItem from="1668277653804" duration="2919000" />
-      <workItem from="1668380381638" duration="3123000" />
+      <workItem from="1668380381638" duration="3328000" />
+      <workItem from="1668412087556" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="int">
       <created>1668110438940</created>
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668382642869</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Filtering Out Hungry Dino's(chapter 13)">
+      <created>1668383699240</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668383699240</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +287,7 @@
     <MESSAGE value="Mocking: Stubs (chapter 11)" />
     <MESSAGE value="Mocking: Mock Objects (chapter 11)" />
     <MESSAGE value="Mocking: Mock Objects (chapter 12)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mocking: Mock Objects (chapter 12)" />
+    <MESSAGE value="Filtering Out Hungry Dino's(chapter 13)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filtering Out Hungry Dino's(chapter 13)" />
   </component>
 </project>
